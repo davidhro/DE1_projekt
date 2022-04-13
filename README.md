@@ -51,3 +51,4 @@ Write your text here
 ## References
 
 1. http://quitoart.blogspot.com/2017/07/vhdl-frequency-counter-square-wave.html
+2. https://www.electronics-notes.com/articles/test-methods/frequency-counter-timer/how-does-a-frequency-counter-work-operation.php
