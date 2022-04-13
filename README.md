@@ -50,4 +50,4 @@ Write your text here
 
 ## References
 
-1. Write your text here.
+1. http://quitoart.blogspot.com/2017/07/vhdl-frequency-counter-square-wave.html
