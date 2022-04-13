@@ -55,3 +55,4 @@ Write your text here
 2. https://www.electronics-notes.com/articles/test-methods/frequency-counter-timer/how-does-a-frequency-counter-work-operation.php
 3. https://github.com/m-bubnov/frequency_counter_FPGA
 4. https://github.com/ZachariaszMonka/fpga_frequency_counter/tree/main/src
+5. https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
