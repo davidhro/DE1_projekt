@@ -1,5 +1,5 @@
 # Frequency counter of square and harmonic and/or ECG signal
-# Počúvajte tých naproti :D
+
 
 ### Team members
 
