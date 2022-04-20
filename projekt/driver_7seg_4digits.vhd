@@ -48,6 +48,10 @@ entity driver_7seg_4digits is
         data1_i : in  std_logic_vector(3 downto 0);
         data2_i : in  std_logic_vector(3 downto 0);
         data3_i : in  std_logic_vector(3 downto 0);
+        data4_i : in  std_logic_vector(3 downto 0);
+        data5_i : in  std_logic_vector(3 downto 0);
+        data6_i : in  std_logic_vector(3 downto 0);
+        data7_i : in  std_logic_vector(3 downto 0);
         dp_i    : in  std_logic_vector(3 downto 0);
         dp_o    : out std_logic;
         seg_o   : out std_logic_vector(6 downto 0);
