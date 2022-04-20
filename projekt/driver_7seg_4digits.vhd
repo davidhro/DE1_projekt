@@ -55,7 +55,7 @@ entity driver_7seg_4digits is
       
       
         seg_o   : out std_logic_vector(6 downto 0);
-        dig_o   : out std_logic_vector(3 downto 0)
+        dig_o   : out std_logic_vector(7 downto 0)
     );
 end entity driver_7seg_4digits;
 
@@ -124,52 +124,47 @@ begin
             if (reset = '1') then
                 s_hex <= data0_i;
                
-                dig_o <= "";
+                dig_o <= "11111110";
             else
                 case s_cnt is
                     when "111" =>
                         s_hex <= data7_i;
                       
-                        dig_o <= "";
+                        dig_o <= "01111111";
 
                     when "110" =>
                         s_hex <= data6_i;
                      
-                        dig_o <= "";
+                        dig_o <= "10111111";
 
                     when "101" =>
                         s_hex <= data5_i;
                       
-                        dig_o <= "";
+                        dig_o <= "11011111";
 
                     when "100" =>
                          s_hex <= data4_i;
                       
-                        dig_o <= "";           
+                        dig_o <= "11101111";           
 
                     when "011" =>
                          s_hex <= data3_i;
                       
-                        dig_o <= "";
+                        dig_o <= "11110111";
 
                     when "010" =>
                          s_hex <= data2_i;
                        
-                        dig_o <= "";
+                        dig_o <= "11111011";
                     when "001" =>
                          s_hex <= data1_i;
                       
-                        dig_o <= ""; 
-                    
-                    when "000" =>
-                         s_hex <= data0_i;
-                      
-                        dig_o <= "";
+                        dig_o <= "11111101";
 
                     when others =>
                          s_hex <= data0_i;
                       
-                        dig_o <= "";
+                        dig_o <= "11111110";
 
                 end case;
             end if;
