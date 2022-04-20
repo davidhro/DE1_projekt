@@ -40,7 +40,7 @@ use ieee.numeric_std.all;
 --   dig_o(3:0)   -- Common anode signals to individual digits
 --
 ------------------------------------------------------------
-entity driver_7seg_4digits is
+entity driver_7seg_8digits is
     port(
         clk     : in  std_logic;
         reset   : in  std_logic;
@@ -57,17 +57,17 @@ entity driver_7seg_4digits is
         seg_o   : out std_logic_vector(6 downto 0);
         dig_o   : out std_logic_vector(7 downto 0)
     );
-end entity driver_7seg_4digits;
+end entity driver_7seg_8digits;
 
 ------------------------------------------------------------
 -- Architecture declaration for display driver
 ------------------------------------------------------------
-architecture Behavioral of driver_7seg_4digits is
+architecture Behavioral of driver_7seg_8digits is
 
     -- Internal clock enable
     signal s_en  : std_logic;
     -- Internal 2-bit counter for multiplexing 4 digits
-    signal s_cnt : std_logic_vector(1 downto 0);
+    signal s_cnt : std_logic_vector(2 downto 0);
     -- Internal 4-bit value for 7-segment decoder
     signal s_hex : std_logic_vector(3 downto 0);
 
