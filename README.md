@@ -33,7 +33,7 @@ Write your text here.
 
 ## VHDL modules description and simulations
 
-# clock_enable
+### clock_enable
 Tento modul generuje clock enable signál
 
 <a name="top"></a>
