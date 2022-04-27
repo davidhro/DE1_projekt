@@ -29,7 +29,7 @@ Napsat kód pro frekvenační čítač a implementovat ho na hardware.
 
 ![your figure](https://github.com/davidhro/DE1_projekt/blob/main/projekt/dokumentace/nexys-a7-callout.png)
 
-Pro projekt bylo použita deska Nexys A7-50T. Analogový signál byl do desky přiveden pomocí Pmod portů s AD převodníkem (10).
+Pro projekt byla použita deska Nexys A7-50T. Analogový signál byl do desky přiveden pomocí Pmod portů s AD převodníkem (10).
 Dále bylo použito osm 7 segmentových displajů (21), které tato deska má.
 
 ## VHDL modules description and simulations
