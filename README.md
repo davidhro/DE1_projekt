@@ -34,9 +34,11 @@ Write your text here.
 ## VHDL modules description and simulations
 
 ### clock_enable
-Tento modul generuje clock enable signál
+Tento modul generuje clock enable signál.
 
 <a name="top"></a>
+
+### 
 
 ## TOP module description and simulations
 
