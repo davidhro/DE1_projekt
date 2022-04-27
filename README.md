@@ -21,7 +21,7 @@
 
 ## Project objectives
 
-Napsat kód a implementovat ho na hardware. 
+Napsat kód pro frekvenační čítač implementovat ho na hardware. 
 
 <a name="hardware">Digilent Nexys A7-50T</a>
 
