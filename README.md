@@ -51,6 +51,11 @@ Tento modul slouží jako driver pro 8 displajů.
 
 <a name="top"></a>
 
+### counter
+
+
+<a name="top"></a>
+
 ## TOP module description and simulations
 
 Write your text here.
