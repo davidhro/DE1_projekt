@@ -3,10 +3,10 @@
 
 ### Team members
 
-* David Hromas (responsible for xxx)
-* Filip Seč (responsible for xxx)
-* Matus Bohucky (responsible for xxx)
-* Lev Meshores (responsible for xxx)
+* David Hromas 
+* Filip Seč
+* Matus Bohucky 
+* Lev Meshores 
 
 ### Table of contents
 
