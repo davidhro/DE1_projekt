@@ -33,7 +33,8 @@ Write your text here.
 
 ## VHDL modules description and simulations
 
-Write your text here.
+#clock_enable
+Tento modul generuje clock enable signál
 
 <a name="top"></a>
 
