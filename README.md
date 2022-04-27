@@ -23,9 +23,11 @@
 
 Napsat kód pro frekvenační čítač a implementovat ho na hardware. 
 
-<a name="hardware">Digilent Nexys A7-50T</a>
+
 
 ## Hardware description
+
+<a name="hardware">Digilent Nexys A7-50T</a>
 
 ![your figure](https://github.com/davidhro/DE1_projekt/blob/main/projekt/dokumentace/nexys-a7-callout.png)
 
