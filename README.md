@@ -38,7 +38,15 @@ Tento modul generuje clock enable signál.
 
 <a name="top"></a>
 
-### 
+### hex_7seg
+Tento modul převádí binární signál na hodnoty na 7 segmentovém displeji.
+
+<a name="top"></a>
+
+### driver_7seg_8digit
+Tento modul slouží jako driver pro 8 displajů.
+
+<a name="top"></a>
 
 ## TOP module description and simulations
 
