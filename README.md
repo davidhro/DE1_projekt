@@ -27,9 +27,10 @@ Napsat kód pro frekvenační čítač a implementovat ho na hardware.
 
 ## Hardware description
 
-Write your text here.
+<a name="modules">https://github.com/davidhro/DE1_projekt/blob/main/projekt/dokumentace/nexys-a7-callout.png</a>
 
-<a name="modules"></a>
+Pro projekt bylo použito FPGA Nexys A7-50T. Analogový signál byl do desky přiveden pomocí Pmod portů s AD převodníkem.
+Dále bylo použito osm 7 segmentových displajů, které toto FPGA má.
 
 ## VHDL modules description and simulations
 
