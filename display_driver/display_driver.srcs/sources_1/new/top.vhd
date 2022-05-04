@@ -23,7 +23,7 @@ entity top is
            CE : out STD_LOGIC;
            CF : out STD_LOGIC;
            CG : out STD_LOGIC;
-           --DP : out STD_LOGIC;
+           
            AN : out STD_LOGIC_VECTOR (7 downto 0);
            BTNC : in STD_LOGIC);
 end top;
