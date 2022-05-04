@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/xsloto00/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/impl/func/xsim/top_func_impl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clock_enable'
+INFO: [VRFC 10-3107] analyzing entity 'cnt_up_down'
+INFO: [VRFC 10-3107] analyzing entity 'hex_7seg'
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_8digits'
+INFO: [VRFC 10-3107] analyzing entity 'top'
