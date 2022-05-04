@@ -25,6 +25,7 @@ Napisať kóid pre jednotlivé moduly projektu, tj. driver pre 7 segmentový dis
 
 Napsat kód pro frekvenční čítač a implementovat ho na hardware. 
 
+Neprišli sme na spôsob, ako do outputu 7 segmentového displeja dostať input zo signálu. Respektíve sme nedokázali prispôsobiť counter modul.
 
 ## Hardware description
 
