@@ -1,44 +1,10 @@
-------------------------------------------------------------
---
--- Driver for 4-digit 7-segment display.
--- Nexys A7-50T, Vivado v2020.1.1, EDA Playground
---
--- Copyright (c) 2020-Present Tomas Fryza
--- Dept. of Radio Electronics, Brno Univ. of Technology, Czechia
--- This work is licensed under the terms of the MIT license.
---
-------------------------------------------------------------
+
 
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-------------------------------------------------------------
--- Entity declaration for display driver
---
---             +------------------+
---        -----|> clk             |
---        -----| reset       dp_o |-----
---             |       seg_o(6:0) |--/--
---        --/--| data0_i(3:0)     |  7
---        --/--| data1_i(3:0)     |
---        --/--| data2_i(3:0)     |
---        --/--| data3_i(3:0)     |
---          4  |        dig_o(3:0)|--/--
---        --/--| dp_i(3:0)        |  4
---          4  +------------------+
---
--- Inputs:
---   clk
---   reset
---   dataX_i(3:0) -- Data values for individual digits
---   dp_i(3:0)    -- Decimal points for individual digits
---
--- Outputs:
---   dp_o:        -- Decimal point for specific digit
---   seg_o(6:0)   -- Cathode values for individual segments
---   dig_o(3:0)   -- Common anode signals to individual digits
---
+
 ------------------------------------------------------------
 entity driver_7seg_8digits is
     port(
@@ -73,12 +39,10 @@ architecture Behavioral of driver_7seg_8digits is
 
 begin
     --------------------------------------------------------
-    -- Instance (copy) of clock_enable entity generates 
-    -- an enable pulse every 4 ms
+  
     clk_en0 : entity work.clock_enable
         generic map(
-            -- FOR SIMULATION, CHANGE THIS VALUE TO 4
-            -- FOR IMPLEMENTATION, KEEP THIS VALUE TO 400,000
+            
             g_MAX => 100000
         )
         port map(
