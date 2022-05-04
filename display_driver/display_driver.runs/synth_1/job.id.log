@@ -1,5 +1,0 @@
-ERROR: Exception caught trying to open file D:\Documents\xsloto00\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.runs\synth_1/runme.log
-See file D:\Documents\xsloto00\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.runs\synth_1/exception.log for details.
-D:\Documents\xsloto00\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.runs\synth_1\rundef.js(22, 1) Microsoft JScript runtime error: Permission denied
-
-CScript Error: Execution of the Windows Script Host failed. (0x80020102)
