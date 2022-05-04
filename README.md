@@ -39,12 +39,16 @@ Dále bylo použito osm 7 segmentových displajů (21), které tato deska má.
 ### clock_enable
 Tento modul generuje clock enable signál.
 
-<a name="top">Testbench:</a>
-![your figure]()
+<a name="top"></a>
+
+
+![y
+our figure]()
 ### hex_7seg
 Tento modul převádí binární signál na hodnoty na 7 segmentovém displeji.
 
 <a name="top"></a>
+
 ![your figure]()
 ### driver_7seg_8digit
 Tento modul slouží jako driver pro 8 displajů.
