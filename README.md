@@ -74,8 +74,6 @@ Write your text here
 
 ## References
 
-1. http://quitoart.blogspot.com/2017/07/vhdl-frequency-counter-square-wave.html
-2. https://www.electronics-notes.com/articles/test-methods/frequency-counter-timer/how-does-a-frequency-counter-work-operation.php
-3. https://github.com/m-bubnov/frequency_counter_FPGA
-4. https://github.com/ZachariaszMonka/fpga_frequency_counter/tree/main/src
-5. https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
+1. https://www.electronics-notes.com/articles/test-methods/frequency-counter-timer/how-does-a-frequency-counter-work-operation.php
+2. https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
+3. https://github.com/tomas-fryza/digital-electronics-1
